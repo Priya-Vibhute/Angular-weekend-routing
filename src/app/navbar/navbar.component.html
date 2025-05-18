@@ -6,23 +6,34 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<!-- Home -->
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#" routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+  <!-- Profile -->
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" routerLink="/profile" routerLinkActive="active-link">Profile</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+<!-- Dashboard -->
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" routerLink="/dashboard" routerLinkActive="active-link">Dashboard</a>
         </li>
+
+<!-- Product -->
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" routerLink="/products" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Product</a>
+        </li>
+
+<!-- Product Detail -->
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" routerLink="/products/details/67" routerLinkActive="active-link">Product Detail</a>
+        </li>
+
+ <!-- Product Detail -->
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" routerLink="/products/addproduct" routerLinkActive="active-link">add Product</a>
+        </li>
+      
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
